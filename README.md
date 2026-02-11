@@ -99,7 +99,7 @@ Complexity:
 
 | Difficulty | Solved |
 | ---------- | ------ |
-| Easy       | 2      |
+| Easy       | 3      |
 | Medium     | X      |
 | Hard       | X      |
 
