@@ -98,8 +98,8 @@ Complexity:
 ## 📊 Progress Tracker
 
 | Difficulty | Solved |
-| ---------- | ------ |
-| Easy       | 5      |
+| ---------- |--------|
+| Easy       | 6      |
 | Medium     | X      |
 | Hard       | X      |
 
