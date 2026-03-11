@@ -1,5 +1,8 @@
 package leetcode.easy.string;
 
+import java.util.HashMap;
+import java.util.Map;
+
 /*Given a string s, find the first non-repeating character in it and return its index. If it does not exist, return -1.
 Example 1:
 Input: s = "leetcode"
@@ -26,11 +29,18 @@ public class FirstUniqueCharacterInAString {
     }
 
     public static int firstUniqChar(String s) {
-        for (int i = 0; i < s.length(); i++) {
-            String str1 = s.substring(0, i);
-            String str2 = s.substring(i + 1, s.length());
-            if (!str1.contains(String.valueOf(s.charAt(i))) && !str2.contains(String.valueOf(s.charAt(i)))) {
+        int count=1;
+        char[] charArray = s.toCharArray();
+        for(int i=0;i<charArray.length;i++){
+            for(int j=i+1;j<charArray.length;j++){
+                if(charArray[i]==charArray[j]){
+                    count++;
+                }
+            }
+            if(count==1){
                 return i;
+            }else{
+                count=1;
             }
         }
         return -1;
