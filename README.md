@@ -100,7 +100,7 @@ Complexity:
 | Difficulty | Solved |
 | ---------- |--------|
 | Easy       | 51     |
-| Medium     | 6      |
+| Medium     | 13     |
 | Hard       | X      |
 
 *(Updated regularly)*
